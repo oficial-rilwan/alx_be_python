@@ -3,5 +3,6 @@ count = 0
 
 while count < size:
     for x in range(size):
-        print(f'{size * '*'}')
-        count = count + 1
+        print("*", end="")
+    count = count + 1
+    print("\n")
