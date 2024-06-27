@@ -10,7 +10,7 @@ match operator:
     case "*":
         print(f"The result is {num_1 * num_2}.")
     case "/":
-        if operator == '/' and num_2 == 0:
-            print('Cannot devide by zero')
+        if num_2 == 0:
+            print('Cannot devide by zero.')
         else:
             print(f"The result is {num_1 / num_2}.")
