@@ -17,4 +17,6 @@ match conversion_type:
         convert_to_celsius(user_input)
     case 'C':
         convert_to_fahrenheit(user_input)
+    case _:
+        print("Invalid temperature. Please enter a numeric value.")
     
